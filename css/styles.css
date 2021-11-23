@@ -1,0 +1,40 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --title-text-color: #2121;
+  --accent-text-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+.body {
+  background: #ffffff;
+  color: #212121;
+}
+
+.logo {
+}
+
+/*Site nav*/
+.list {
+  list-style: none;
+}
+
+/*Hero*/
+.hero-title {
+}
+
+/*Features*/
+.title {
+  color: var(--primary-text-color);
+}
+.feature-list {
+  color: var(--secondary-text-color);
+}
+
+/*Examples*/
+
+/*Button*/
+.button {
+  color: #ffffff;
+  background-color: var(--accent-text-color);
+}
