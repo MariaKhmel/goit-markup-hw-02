@@ -116,43 +116,29 @@ body {
 }
 
 /*Button*/
+
 .button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.button .secondary {
   color: var(--primary-text-color);
   background-color: var(--secondary-background-color);
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.button.secondary:hover,
+.button.secondary:focus {
   color: var(--secondary-accent-color);
   background-color: var(--accent-text-color);
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
 }
-.button-hero {
+.button.primary {
   color: var(--secondary-accent-color);
   background-color: var(--accent-text-color);
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
 }
 
 /* Footer */
