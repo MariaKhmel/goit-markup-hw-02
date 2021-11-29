@@ -56,7 +56,7 @@ body {
 }
 
 .contact-nav .link {
-  color: var(--title-text-color);
+  color: var(--secondary-text-color);
 
   font-weight: 500;
   font-size: 14px;
