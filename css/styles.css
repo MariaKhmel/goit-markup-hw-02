@@ -73,9 +73,11 @@ body {
 }
 
 /*Hero*/
+.hero {
+  background-color: var(--background-color);
+}
 .hero-title {
   color: var(--secondary-accent-color);
-  background-color: var(--background-color);
 
   font-weight: 900;
   font-size: 44px;
