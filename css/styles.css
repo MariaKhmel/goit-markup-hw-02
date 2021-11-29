@@ -12,7 +12,6 @@ body {
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
-  font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
@@ -85,19 +84,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-/*Button*/
-.button {
-  color: var(--secondary-accent-color);
-  background-color: var(--accent-text-color);
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-}
 
 /*Features*/
 
@@ -140,6 +126,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .button:hover,
@@ -153,7 +140,21 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
+.button-hero {
+  color: var(--secondary-accent-color);
+  background-color: var(--accent-text-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
 /* Footer */
 a {
   text-decoration: none;
