@@ -116,10 +116,19 @@ body {
   line-height: 1.2;
   text-align: center;
 }
+.title.team {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: none;
+}
 
 /*Button*/
 
 .button {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -128,9 +137,14 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-.button .secondary {
+.button.secondary {
   color: var(--primary-text-color);
   background-color: var(--secondary-background-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
 }
 
 .button.secondary:hover,
